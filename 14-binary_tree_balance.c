@@ -4,6 +4,7 @@
 * @tree: a pointer to the root node of the tree to measure the height.
 * Return: tree is NULL, your function must return 0
 **/
+
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	int height_1 = 0, height_2 = 0;
